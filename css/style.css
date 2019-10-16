@@ -6,3 +6,9 @@ body {
 #header a:hover {
     color: teal;
 }
+.maincontainer {
+    width: 100%;
+}
+#contact {
+    width:70%;
+}
