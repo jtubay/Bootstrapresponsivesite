@@ -1,0 +1,8 @@
+body {
+    background: #ccc;
+    background-image: url(/images/criss-cross.png);
+
+}
+#header a:hover {
+    color: teal;
+}
