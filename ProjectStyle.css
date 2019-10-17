@@ -1,6 +1,6 @@
 body {
     background: #ccc;
-    background-image: url(/images/criss-cross.png);
+    background-image: url(./img/criss-cross.png);
 
 }
 #header a:hover {
