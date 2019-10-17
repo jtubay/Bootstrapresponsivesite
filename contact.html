@@ -10,6 +10,25 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="ProjectStyle.css">
     <title>Portfolio</title>
+    <style>
+        body {
+            background: #ccc;
+            background-image: url(./img/criss-cross.png);
+
+        }
+
+        #header a:hover {
+            color: teal;
+        }
+
+        .maincontainer {
+            width: 100%;
+        }
+
+        #contact {
+            width: 70%;
+        }
+    </style>
 </head>
 
 <body>
@@ -42,41 +61,41 @@
     <!--end of navbar-->
     <!--contact form section-->
     <div class="maincontainer">
-    <div class="jumbotron jumbotron-fluid m-5 bg-white p-3  rounded img-thumbnail" id="contact">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
+        <div class="jumbotron jumbotron-fluid m-5 bg-white p-3  rounded img-thumbnail" id="contact">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
 
-                <div class="col-auto pl-5">
-                    <h1 class="text-info display-5">Contact</h1>
+                    <div class="col-auto pl-5">
+                        <h1 class="text-info display-5">Contact</h1>
+                    </div>
+                    <div class="col"></div>
                 </div>
-                <div class="col"></div>
-            </div>
-            <hr>
-            <div class="row">
+                <hr>
+                <div class="row">
 
-                <div class="col-12 col-md-12">
-                    <div>
-                        <label for="Name">name:</label>
-                        <input type="text" class="form-control" placeholder="John Smith">
+                    <div class="col-12 col-md-12">
+                        <div>
+                            <label for="Name">name:</label>
+                            <input type="text" class="form-control" placeholder="John Smith">
+                        </div>
+                        <div>
+                            <label for="Email">Email:</label>
+                            <input type="text" class="form-control" placeholder="John.smith@gmail.com">
+                        </div>
+                        <div>
+                            <label for="Message">Message:</label>
+                            <textarea class="form-control" cols="30" rows="5"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn btn-info mt-2">Send</button>
+                        </div>
                     </div>
-                    <div>
-                        <label for="Email">Email:</label>
-                        <input type="text" class="form-control" placeholder="John.smith@gmail.com">
-                    </div>
-                    <div>
-                        <label for="Message">Message:</label>
-                        <textarea class="form-control" cols="30" rows="5"></textarea>
-                    </div>
-                    <div>
-                        <button class="btn btn-info mt-2">Send</button>
-                    </div>
+
                 </div>
 
             </div>
-
         </div>
     </div>
-</div>
 
 
     <!--end of contact section-->
